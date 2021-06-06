@@ -1,0 +1,43 @@
+{
+    "configs": {
+        "seed": 0,
+        "verbosity": 0
+    },
+    "without": [
+        {
+            "num_bacteria": 100,
+            "max_pop": 1000,
+            "birth_prob": 0.1,
+            "death_prob": 0.025,
+            "num_trials": 25,
+            "timesteps": 400,
+            "progress_bar": true
+        }
+    ],
+    "with": [
+        {
+            "num_bacteria": 100,
+            "max_pop": 1000,
+            "birth_prob": 0.3,
+            "death_prob": 0.2,
+            "resistant": false,
+            "mut_prob": 0.8,
+            "num_trials": 25,
+            "untreated_time": 150,
+            "treated_time": 250,
+            "progress_bar": true
+        },
+        {
+            "num_bacteria": 100,
+            "max_pop": 1000,
+            "birth_prob": 0.17,
+            "death_prob": 0.2,
+            "resistant": false,
+            "mut_prob": 0.8,
+            "num_trials": 25,
+            "untreated_time": 150,
+            "treated_time": 250,
+            "progress_bar": true
+        }
+    ]
+}
